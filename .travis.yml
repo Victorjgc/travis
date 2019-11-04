@@ -5,7 +5,7 @@ install:
   - npm install
 script:
   - npm run test       
-  - echo funcionaaaa
+  - echo funcionaaaaa
 deploy:
   provider: heroku
   api_key:
