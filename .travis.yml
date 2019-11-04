@@ -1,6 +1,10 @@
 lenguage: node_js
 node_js:
   - 7
-script: 
-  echo hola Mundo
+install:
+  - npm install
+      
+script:
+  - npm test       
+  - echo hola Mundo
 
