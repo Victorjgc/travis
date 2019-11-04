@@ -2,8 +2,7 @@ lenguage: node_js
 node_js:
   - 7
 install:
-  - npm install -g npm
-  - npm install jest
+  - npm install
 script:
   - npm run test       
   - echo funcionaaaa
