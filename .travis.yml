@@ -6,4 +6,9 @@ install:
 script:
   - npm test       
   - echo funcionaaaa
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: "b7e75911-b530-44b9-b7d6-901d33e0c1cc"
+  app: travisprueba
+  run: "rake db:migrate"
