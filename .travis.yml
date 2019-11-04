@@ -2,5 +2,5 @@ lenguage: node_js
 node_js:
   - 7
 script: 
-  echo("hola Mundo");
+  echo"hola Mundo"
 
