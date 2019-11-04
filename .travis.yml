@@ -5,5 +5,5 @@ install:
   - npm install -g npm
 script:
   - npm test       
-  - echo poeque no funcionaaaa
+  - echo funcionaaaa
 
