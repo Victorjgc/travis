@@ -11,4 +11,6 @@ deploy:
   api_key:
     secure: b7e75911-b530-44b9-b7d6-901d33e0c1cc
   app: travisprueba
+  after_deploy:
+    - cat package.json
  
