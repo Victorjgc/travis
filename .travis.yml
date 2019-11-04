@@ -1,6 +1,6 @@
 lenguage: node_js
 node_js:
-  - 7
+  - 8
 install:
   - npm install
 script:
