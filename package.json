@@ -1,6 +1,6 @@
 {
-	"scripts": {
-	  "test": "hola a todos "
-	}
+"scripts": {
+  "test": "echo \"holaa a todos\""
+ }
 }
 
